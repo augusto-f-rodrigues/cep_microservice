@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { SendCepModule } from './send-cep/send-cep.module';
+import { SendCepModule } from './send-cep/viaCEP.module';
 import { ConfigModule } from '@nestjs/config';
 
 @Module({

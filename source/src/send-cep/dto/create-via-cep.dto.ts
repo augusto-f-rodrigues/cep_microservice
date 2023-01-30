@@ -1,4 +1,4 @@
-export class CreateSendCepDto {
+export class CreateViaCEPDto {
   //   cep: string;
   //   logradouro: string;
   //   complemento: string;

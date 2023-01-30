@@ -1,5 +1,5 @@
-declare namespace Cpe {
-  interface CpeResponse {
+declare namespace Cep {
+  interface CepResponse {
     part: string;
     vendor: string;
     product: string;
