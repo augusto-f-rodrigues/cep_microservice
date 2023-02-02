@@ -1,15 +1,14 @@
 declare namespace Cep {
   interface CepResponse {
-    part: string;
-    vendor: string;
-    product: string;
-    version: string;
-    update: string;
-    edition: string;
-    language: string;
-    sw_edition: string;
-    target_sw: string;
-    target_hw: string;
-    other: string;
+    cep: string;
+    logradouro: string;
+    complemento: string;
+    bairro: string;
+    localidade: string;
+    uf: string;
+    ibge: string;
+    gia: string;
+    ddd: string;
+    siafi: string;
   }
 }

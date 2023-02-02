@@ -1,13 +1,16 @@
+import { ViaCepGrpcServerController } from './viaCep/viacep-grpc-server/viacep-grpc-server.controller';
 import { Module } from '@nestjs/common';
-import { SendCepModule } from './send-cep/viaCEP.module';
+import { ViaCepModule } from './viaCep/viaCEP.module';
 import { ConfigModule } from '@nestjs/config';
+
 
 @Module({
   imports: [
     ConfigModule.forRoot({ envFilePath: 'dev.env', isGlobal: true }),
-    SendCepModule,
+    ViaCepModule,
   ],
-  controllers: [],
+  controllers: [
+        ],
   providers: [],
 })
 export class AppModule {}
